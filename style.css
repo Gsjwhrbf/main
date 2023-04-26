@@ -4,10 +4,11 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:#FFFAFA;
   }
 
   .header {
-    background-color: #f1f1f1;
+    background-color: #FFEBEE;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -36,9 +37,14 @@
   }
 
   .footer {
-    background-color: #f1f1f1;
+    background-color: #FFEBEE;
     padding: 10px;
     text-align: center;
+  }
+
+  .note {
+    display: flex;
+    justify-content: center;
   }
   
   @media (max-width: 600px) {
@@ -47,3 +53,4 @@
       flex-direction: column;
     }
   }
+
